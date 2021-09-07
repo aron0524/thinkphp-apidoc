@@ -141,7 +141,7 @@ class Utils
         foreach ($keys as $k => $v) {
             $parent = !$k ? "" : $keys[$k - 1];
             foreach ($list as $item) {
-                if (((!empty($item['parent']) && $item['parent'] === $parent) || empty($item['parent'])) && $item[$field] == $v) {
+                if (((!empty($item['parent']) && $item['parent'] === $parent) || empty($item['parent'])) && $item[$field] == $v || ((!empty($item['parent']) && $item['folder'] === $v)) ) {
                     $data[] = $item;
                     break;
                 }
