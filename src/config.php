@@ -5,9 +5,9 @@ return [
     // 文档描述
     'desc'               => '',
     // 版权申明
-    'copyright'          => 'Powered By hg-code',
+    'copyright'          => 'Powered By yb-code',
     // 默认作者
-    'default_author'=>'',
+    'default_author'     => '',
     // 默认请求类型
     'default_method'=>'GET',
     // 设置应用/版本（必须设置）
